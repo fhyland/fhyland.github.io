@@ -1,0 +1,333 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:200,300,400,500,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-size: 60px;
+	font-weight: 200;
+	font-family: "Source Code Pro";
+	color: white;
+	background: none;
+	padding: 8px 24px;
+	border-radius: 16px;
+}
+p {
+	font-size: 20px;
+	color: white;
+}
+hr {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 5px;
+	background-color: black;
+}
+
+#navbar {
+	overflow: hidden;
+	background: #ddd;
+	opacity: 0.9;
+	filter: alpha(opacity=50);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 45px;
+}
+
+#navbar a {
+	float: left;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-family: "Source Code Pro", serif;
+	font-size: 20px;
+	letter-spacing: 4px;
+}
+
+#navbar a:hover {
+	color: white;
+	transition: all 0.3s ease-out;
+	background: #eb6e80;
+}
+#navbar li {
+	float: left;
+	display: inline-block;
+}
+
+#ExperienceMain {
+	background-image: url(backgroundmyhammock.jpg);
+	background-size: cover; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	width: 100%;
+	height: 100vh;
+}
+#ExperienceMain p {
+	color: white;
+}
+
+#QuoteSection {
+	background-color: #efefef;
+	background-size: cover; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	width: 100%;
+	height: 100vh;
+}
+#QuoteSection h2, p {
+	color: black;
+}
+
+#Container {
+	display: block;
+	overflow: auto;
+}
+
+#LeftColumn {
+	float: left;
+	width: 33%;
+}
+
+#MiddleColumn {
+	float: left;
+	width: 33%;
+}
+
+#RightColumn {
+	float: left;
+	width: 33%;
+}
+
+#LeftColumn p {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+#LeftColumn h2 {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#LeftColumn img {
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+#MiddleColumn p {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+#MiddleColumn h2 {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#MiddleColumn img {
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+#RightColumn p {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+#RightColumn h2 {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#RightColumn img {
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+#ExperienceContent {
+	margin-top: 600px;
+	background-color: #efefef;
+}
+
+#ExperienceContent h2 {
+	color: black;
+	text-align: center;
+}
+
+#ExperienceContent p, h3 {
+	color: black;
+	font-family: "Source Code Pro";
+	text-align: left;
+	margin-left: 25px;
+}
+#ExperienceContent p {
+	font-size: 20px;
+	font-weight: 200;
+}
+#ExperienceContent h3 {
+	font-size: 25px;
+}
+#ExperienceContent img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+#Qualifications h2 {
+	color: black;
+	text-align: center;
+}
+#Qualifications img {
+	margin-top: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#Container {
+	display: block;
+	overflow: auto;
+}
+
+#LeftColumn2 {
+	float: left;
+	width: 50%;
+}
+#RightColumn2 {
+	float: left;
+	width: 50%;
+}
+#LeftColumn2 img {
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#RightColumn2 img {
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#LeftColumn2 p {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+#RightColumn2 p {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+#LeftColumn2 h2 {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#RightColumn2 h2 {
+	font-family: "Source Code Pro";
+	font-weight: 200;
+	color: black;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.collapsible {
+	 background-color: #caebf2;
+	  color: white;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: none;
+	  border-radius: 25px;
+	  text-align: left;
+	  outline: none;
+	  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #ff3b3f;
+  transition: all 0.3s ease-out;
+  color: white;
+
+}
+.ButtonContent {
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	#LeftColumn, #MiddleColumn, #RightColumn, #LeftColumn2, #RightColumn2 {
+		width: 100%;
+		padding: 0;
+	}
+}
